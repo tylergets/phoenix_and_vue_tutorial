@@ -33,7 +33,6 @@ config :phoenix_vue, PhoenixVueWeb.Endpoint,
 config :phoenix_vue, PhoenixVueWeb.Endpoint,
   live_reload: [
     patterns: [
-      ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/phoenix_vue_web/views/.*(ex)$},
       ~r{lib/phoenix_vue_web/templates/.*(eex)$}
