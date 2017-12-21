@@ -11,7 +11,7 @@ config :phoenix_vue, PhoenixVueWeb.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: []
+  watchers: [npm: ["run", "dev", cd: Path.expand("../assets", __DIR__)]]
 
 # ## SSL Support
 #
